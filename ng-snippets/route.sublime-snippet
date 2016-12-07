@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+(function() {
+	'use strict';
+
+	angular
+		.module('${1:app}')
+		.config(config);
+	
+	
+	config.injector = ['\$stateProvider', '\$urlRouterProvider'];
+	function config(\$stateProvider, \$urlRouterProvider) {
+
+		\$urlRouterProvider.otherwise('/');
+		
+		\$stateProvider
+			.state('${2:name}', {
+				url: '/',
+				templateUrl: '${4:path}/${2:name}.html',
+				controller: '${3:Dummy}Controller as ${2:name}' 
+			});
+	}
+
+})(); 
+
+
+]]></content>
+    <tabTrigger>ng-route</tabTrigger>
+    <description>AngularJS ui route</description>
+</snippet>

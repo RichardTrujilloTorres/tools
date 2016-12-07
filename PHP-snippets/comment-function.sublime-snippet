@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+/**
+* ${1:comment}${2: 
+*
+* @param ${5:type} ${6:name}}${3: 
+* @param ${7:type} ${8:name}}${4: 
+*
+* @return ${9:type}}
+*/
+]]></content>
+    <tabTrigger>comm-fn</tabTrigger>
+    <description>PHP comment function</description>
+</snippet>

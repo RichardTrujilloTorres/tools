@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+(function() {
+	'use strict';
+
+	angular
+		.module('${1:app}')
+		.controller('${2:Dummy}Controller', ${2:Dummy}Controller);
+
+	${2:Dummy}Controller.\$inject = ['${3:\$http}'];
+	function ${2:Dummy}Controller(${3:\$http}) {
+		var vm = this;
+
+		console.log('${2:Dummy}Controller()');
+	}
+
+})();
+
+
+]]></content>
+    <tabTrigger>ng-controller</tabTrigger>
+    <description>AngularJS 1.5 controller</description>
+</snippet>

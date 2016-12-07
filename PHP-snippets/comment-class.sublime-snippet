@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+/**
+* ${1:description}${2:
+*
+* ${3:Richard Trujillo} ${4:<richard.trujillo.torres@gmail.com>}}
+*/
+]]></content>
+    <tabTrigger>comm-class</tabTrigger>
+    <description>PHP comment class</description>
+</snippet>
